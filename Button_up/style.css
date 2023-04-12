@@ -1,0 +1,28 @@
+.search {
+    font-weight: 700;
+    color: teal;
+    border: 1px solid teal;
+    width: 100px;
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+.plus {
+    font-size:x-large;
+    color: antiquewhite;
+    border: 1px solid teal;
+    background-color: teal;
+    border-radius: 50%; 
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+}
+
+.createAccount {
+    font-size: normal;
+    color: antiquewhite;
+    background-color: dodgerblue;
+    border: 2px solid black;
+    padding: 5px 25px;
+    box-shadow: 2px 3px black;
+}
