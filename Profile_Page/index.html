@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="header">
+    <div class="navbar">
+        <div class="navLeft">
+            <h1>Profile</h1>
+            <ul class="navLinks">
+                <li><a class="link" href="#">Home</a></li>
+                <li><a class="link" id="active" href="#">My Profile</a></li>
+                <li><a class="link" href="#">Find Connections</a></li>
+            </ul>
+        </div>
+        <button class="button">Sign Out</button>
+    </div>
+</div>
+<div class="container">
+    <div class="mainCont">
+        <div class="userCard">
+            <img id="profilePic" src="./assets/portfolio_pic.JPG" alt="profile picture">
+            <div class="userCont">
+                <h2 id="username">Molly Dahl</h2>
+                <label id="largeFont"><img id="icon1" src="./assets/map-marker.png" alt="location">Springfield</label>
+                <p>Developer | Engineer | Problem Solver</p>
+                <p>Master of shadows and the Internet!</p>
+                <label><img id="icon2" src="./assets/gear.png" alt="edit profile"><a href="#" class="edit-profile">edit
+                        profile</a></label>
+            </div>
+        </div>
+        <div class="edu">
+            <h2>Education</h2>
+            <div class="eduCont">
+                <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                <p id="dateRange">Dec 2019 - Mar 2020</p>
+                <p>Triple black belt in Python, MERN, and C#...</p>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+
+        <div class="connections">
+            <label class="connectHead"><button class="notificationNum">2</button>Connection Requests</label>
+            <div class="names">
+                <div class="rows">
+                    <label><img class="pics" src="./assets/todd-s.jpg" alt="picture">Todd E</label>
+                    <div class="icons">
+                        <img src="./assets/accept-circle.png" alt="accept">
+                        <img src="./assets/close-circle.png" alt="decline">
+                    </div>
+                </div>
+                <div class="rows">
+                    <label><img class="pics" src="./assets/phil-s.jpg" alt="picture">Phil K</label>
+                    <div class="icons">
+                        <img src="./assets/accept-circle.png" alt="accept">
+                        <img src="./assets/close-circle.png" alt="decline">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="connections">
+            <label class="connectHead"><button class="notificationNum">500+</button>Your Connections</label>
+            <div class="names">
+                <label class="friends"><img class="pics" src="./assets/adrien-s.jpg" alt="picture">Adrien D</label>
+
+                <label class="friends"><img class="pics" src="./assets/anne-s.jpg" alt="picture">Anne J</label>
+
+                <label class="friends"><img class="pics" src="./assets/alayne-s.jpg" alt="picture">Alayne T</label>
+
+                <label class="friends"><img class="pics" src="./assets/arry-s.jpg" alt="picture">Arry Y</label>
+            </div>
+            <a id="viewMore" href="#">View More</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
