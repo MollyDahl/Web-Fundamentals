@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    margin: 0px auto;
+    width: 70%;
+    flex-direction: column;
+    font-family:'Times New Roman', Times, serif;
+}
+.header {
+    display: flex;
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+#search {
+    border: 2px solid black;
+}
+#loginBtn {
+    background-color: rgb(49, 97, 202);
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 5px 15px;
+}
+.allMainCont {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.main {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    gap: 30px;
+}
+.sidebar {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: left;
+    height:fit-content;
+    padding: 10px 20px 20px 20px;
+    gap: 20px;
+    border: 2px solid black;
+}
+h3 {
+    font-size: x-large;
+}
+#defBtn {
+    background-color: rgb(100, 173, 100);
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+    padding: 5px 20px;
+    font-weight: 600;
+}
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+    border: 2px solid black;
+    gap: 20px;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    width: 150px;
+}
+.post p {
+    font-size: larger;
+}
+#bold {
+    font-weight: 800;
+}
+.italic {
+    font-style: italic;
+}
+h2 {
+    font-size: xx-large;
+}
+.likesBtn {
+    background-color: rgb(236, 188, 27);
+    border: 2px solid black;
+    box-shadow: 2px 2px;
+    padding: 5px 10px;
+}
