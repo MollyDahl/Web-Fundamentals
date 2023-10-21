@@ -1,6 +1,0 @@
-I am trying to learn and understand how git works. For those of you who are just as confused as I was, maybe this file might help as I add to it what I am learning.
-
-04/05/2023 -- Today I learned that if I am in the Git Bash command line, I can add my name and email to be linked with what 
-changes I make to files. If I share the repository with others, other people can see that I have made changes because my 
-information will be displayed. I am still unsure exactly how this all looks. I will add updates as I learn more.
-
